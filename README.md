@@ -11,8 +11,8 @@
     # CORREÇÃO DO ERRO 3: A alteração foi na forma de importação: from portal.models import Professor, que anteriomente estava sendo feita incorretamente.
 
 # ------------------------------------ERRO 4----------------------------------------------
-    # ERRO 4 ENCONTRADO: O erro era, porque estava contendo texto dentro de urlpatterns, e isso não permitido, o Djnago precisa entender que é uma URL, e não um texto.
-    # CORREÇÃO DO ERRO 4: A alteração que foi feita foi, retirar o texto que estava dentro de urlppatterns, e colocar include('portal.urls').
+    # ERRO 4 ENCONTRADO: Problema de erro de sintaxe.
+    # CORREÇÃO DO ERRO 4: A linha foi retirada(comentada).
 
 # ------------------------------------ERRO 5----------------------------------------------
     # ERRO 5 ENCONTRADO: Estava campo 'especialidade' que não existe na classe Professor.
@@ -28,7 +28,8 @@
 
 # ------------------------------------ERRO 8----------------------------------------------
     # ERRO 8 ENCONTRADO: A view  'cadastro' não existe. E o erro era, porque estava tentando chamar a view 'cadastro' que não existe.
-    # CORREÇÃO DO ERRO 8: Eu deletei a linha que estava tentando chamar a view 'cadastro', porque ela não existe na views.py.
+    # CORREÇÃO DO ERRO 8: Eu deletei(comentei) a linha , porque ela não existe na views.py.
+
 
 
 # Instrução de como rodar o projeto localmente
